@@ -1,0 +1,9 @@
+[project]
+name = "llm-redteam"
+version = "1.0.0"
+description = "Canary-based jailbreak red-team harness for LLM safety testing"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
